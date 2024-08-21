@@ -1,0 +1,32 @@
+.profile{
+    background-color: #d49e9e;
+    width: 50dvw;
+    height: 50dvh;
+    box-shadow: 0 2px 10px #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em;
+    gap: 5em;
+    border-radius: 25px;
+}
+.profile__avatar img{
+    border-radius: 25px;
+    transition: all 400ms ease;
+}
+.profile__avatar img:hover{
+    box-shadow: 0 0 10px 4px #000;
+    transform: scale(0.95);
+}
+.links{
+    display: flex;
+    gap: 2em;
+    margin-top: 2em;
+    cursor: pointer;
+}
+.links p{
+    transition: all 400ms ease;
+}
+.links p:hover{
+    color: teal;
+}

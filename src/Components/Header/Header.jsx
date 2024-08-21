@@ -9,6 +9,7 @@ export default function Header(){
                 <li><Link to='/'>Главная</Link></li>
                 <li><Link to='PageOne'>Страница №1</Link></li>
                 <li><Link to='PageTwo'>Страница №2</Link></li>
+                <li><Link to='Profile'>Профиль</Link></li>
                 <li><Link to='Login'>Логин</Link></li>
             </ul>
         </div>

@@ -1,0 +1,38 @@
+.login{
+    background-color: rgb(212, 158, 158);
+    width: 50vw;
+    box-shadow: 0 2px 10px #000;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 10%;
+}
+input{
+    padding: 1%;
+    border-radius: 10px;
+}
+button{
+    padding: 1%;
+    width: 30%;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    border:1px solid teal;
+    transition: 200ms all ease;
+}
+button:hover{
+    background-color: teal;
+    color: #fff;
+}
+.welcomePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 10%;
+}
